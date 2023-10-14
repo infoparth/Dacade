@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "E_commerce": {
+            "type": "custom",
+            "build": "npx azle E_commerce",
+            "root": "src",
+            "ts": "src/index.ts",
+            "candid": "src/index.did",
+            "wasm": ".azle/E_commerce/E_commerce.wasm.gz"
+        }
+    }
+}
+
